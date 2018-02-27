@@ -11,6 +11,6 @@ import About from './modules/About';
 import Skills from './modules/Skills';
 
 ReactDOM.render((
-  <div>hello</div>
+  <App />
 ), document.getElementById('root'));
 registerServiceWorker();
