@@ -11,14 +11,6 @@ import About from './modules/About';
 import Skills from './modules/Skills';
 
 ReactDOM.render((
-  <Router history={browserHistory}>
-    <Route path="/" component={App}>
-    <IndexRoute component={About} />
-      <Route path="/portfolios" component={Portfolios}/>
-      <Route path="/experience" component={Experience}/>
-      <Route path="/education" component={Education}/>
-      <Route path="/skills" component={Skills}/>
-    </Route>
-  </Router>
+  <div>hello</div>
 ), document.getElementById('root'));
 registerServiceWorker();
