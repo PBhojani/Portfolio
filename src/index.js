@@ -11,6 +11,9 @@ import About from './modules/About';
 import Skills from './modules/Skills';
 
 ReactDOM.render((
-  <App />
+  <Router history={browserHistory}>
+    <Route path="/" component={App}/>
+    <Route path="/about" component={About}/>
+  </Router>
 ), document.getElementById('root'));
 registerServiceWorker();
