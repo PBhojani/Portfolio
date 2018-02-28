@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <div>
-		  Hello Router!
+        <ul role="nav">
+          <li><NavLink to="/Portfolio/" onlyActiveOnIndex={true}>About</NavLink></li>
+        </ul>
 		</div>
     );
   }
