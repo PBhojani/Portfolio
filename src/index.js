@@ -15,6 +15,9 @@ ReactDOM.render((
     <Route path={process.env.PUBLIC_URL + '/'} component={App}>
       <IndexRoute component={About} />
       <Route path="/portfolios" component={Portfolios}/>
+      <Route path="/experience" component={Experience}/>
+      <Route path="/education" component={Education}/>
+      <Route path="/skills" component={Skills}/>
     </Route>
   </Router>
 ), document.getElementById('root'));

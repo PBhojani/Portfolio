@@ -12,11 +12,11 @@ class App extends Component {
             <h4>Palak Bhojani</h4>
           </div>
             <ul class="nav navbar-nav" role="nav">
-              <li><NavLink to="/" onlyActiveOnIndex={true}>About</NavLink></li>
-              <li><NavLink to="/experience">Experience</NavLink></li>
-              <li><NavLink to="/education">Education</NavLink></li>
-              <li><NavLink to="/skills">Skills</NavLink></li>
-              <li><NavLink to="/portfolios">Portfolios</NavLink></li>
+              <li><NavLink to="/Portfolio/" onlyActiveOnIndex={true}>About</NavLink></li>
+              <li><NavLink to="/Portfolio/experience">Experience</NavLink></li>
+              <li><NavLink to="/Portfolio/education">Education</NavLink></li>
+              <li><NavLink to="/Portfolio/skills">Skills</NavLink></li>
+              <li><NavLink to="/Portfolio/portfolios">Portfolios</NavLink></li>
             </ul>
         </div>
 		</nav>
