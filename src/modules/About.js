@@ -15,9 +15,6 @@ export default class About extends React.Component{
           <br/>
         <p>I am Full Stack Developer with around 5 years of professional experience in design and development of Web Applications. I am enthusiastic about learning new technologies and keeping up with them. I prefer working in a fast paced environment designing and developing applications. Always up for problem solving and challenges. Currently, I am hoping to transition into a Front-End Development position with a product-based company.</p>
         </div>
-          <div>
-          <img alt="text" style={imgstyle} src="profilepic.jpeg"></img>
-          </div>
         </div>
     );
   }
