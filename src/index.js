@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
-import About from './modules';
+import About from './modules/About';
 
 ReactDOM.render((
 <Router history={browserHistory}>
