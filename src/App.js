@@ -19,6 +19,7 @@ class App extends Component {
               <li><NavLink to="/portfolios">Portfolios</NavLink></li>
             </ul>
         </div>
+		</nav>
 		</div>
     );
   }
