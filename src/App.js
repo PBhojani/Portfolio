@@ -13,10 +13,10 @@ class App extends Component {
           </div>
             <ul class="nav navbar-nav" role="nav">
               <li><NavLink to="/Portfolio/" onlyActiveOnIndex={true}>About</NavLink></li>
-              <li><NavLink to="/Portfolio/experience">Experience</NavLink></li>
-              <li><NavLink to="/Portfolio/education">Education</NavLink></li>
-              <li><NavLink to="/Portfolio/skills">Skills</NavLink></li>
-              <li><NavLink to="/Portfolio/portfolios">Portfolios</NavLink></li>
+              <li><NavLink to="/Portfolio/static/js/modules/experience">Experience</NavLink></li>
+              <li><NavLink to="/Portfolio/static/js/modules/education">Education</NavLink></li>
+              <li><NavLink to="/Portfolio/static/js/modules/skills">Skills</NavLink></li>
+              <li><NavLink to="/Portfolio/static/js/modules/portfolios">Portfolios</NavLink></li>
             </ul>
         </div>
 		</nav>
