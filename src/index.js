@@ -14,6 +14,7 @@ ReactDOM.render((
 <Router history={browserHistory}>
     <Route path={process.env.PUBLIC_URL + '/'} component={App}>
       <IndexRoute component={About} />
+      <Route path="/portfolios" component={Portfolios}/>
     </Route>
   </Router>
 ), document.getElementById('root'));
