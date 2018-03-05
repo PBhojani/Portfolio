@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <ul role="nav">
-          <li><NavLink to={process.env.PUBLIC_URL + '/'} onlyActiveOnIndex={true}>About</NavLink></li>
+          <li><NavLink to="/About/" onlyActiveOnIndex={true}>About</NavLink></li>
         </ul>
 		</div>
     );
